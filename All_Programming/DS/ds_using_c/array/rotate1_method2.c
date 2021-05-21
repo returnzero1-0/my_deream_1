@@ -1,5 +1,5 @@
 //write a function rotate(arr[],d,n) that rotates arr[] of size n by d elements 
-
+//Using rotate
 
 #include<stdio.h>
 
