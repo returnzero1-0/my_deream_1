@@ -1,3 +1,5 @@
+//// Hacker Rank DS Array Q.3
+
 #include<stdio.h>
 
 int i,j,sum=0,max,flag=1;
