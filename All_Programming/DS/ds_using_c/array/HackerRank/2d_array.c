@@ -1,4 +1,4 @@
-//// Hacker Rank DS Array Q.3
+// Hacker Rank DS Array Q.3
 
 #include<stdio.h>
 
