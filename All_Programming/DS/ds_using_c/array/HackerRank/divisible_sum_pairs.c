@@ -6,7 +6,7 @@ void divisibleSumPairs();
 
 int main()
 {
-
+    int ;
 
 return 0;
 }
