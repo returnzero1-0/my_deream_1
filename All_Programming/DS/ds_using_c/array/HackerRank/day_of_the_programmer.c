@@ -51,7 +51,7 @@ void dayOfProgrammer(int year)
     }
     else      // in year is 1918 They shifted from 31-jan-1918 to 14-feb-1918
     {
-        printf("26.09.%d",year);        //13+13=26
+        printf("26.09.%d",year);        //13 (non leap year day)+13=26
 
     }
 }
