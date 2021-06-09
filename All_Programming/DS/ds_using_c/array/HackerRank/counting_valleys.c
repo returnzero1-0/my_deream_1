@@ -24,7 +24,20 @@ return 0;
 
 void countingValleys(int steps, char path[])
 {
-    int sum=0,count=0,i;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*
+int sum=0,count=0,i;
     
 
     for(i=0;i<steps;i++)
@@ -48,4 +61,4 @@ void countingValleys(int steps, char path[])
         }
     }
     printf("%d",count);
-}
+*/
