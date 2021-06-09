@@ -1,1 +1,3 @@
-a,b=map(int,input().split(" "))
+i=3
+
+for i in range(0,i):
