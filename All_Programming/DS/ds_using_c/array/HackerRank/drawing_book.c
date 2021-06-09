@@ -27,12 +27,12 @@ void pageCount(int n,int p)
 
     if(front<back)
     {
-        //printf("%d",front);
+        printf("%d",front);
 
     }
     else
     {
-       //printf("%d",back);
+       printf("%d",back);
 
     }
     
