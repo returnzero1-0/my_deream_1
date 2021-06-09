@@ -11,11 +11,9 @@ int main()
 
     char path[steps];
 
-    int i;
-    for(i=0;i<steps;i++)
-    {
-        scanf("%c",&path[i]);
-    }
+    
+    scanf("%s",path);
+    
 
     countingValleys(steps,path);
 
@@ -24,15 +22,44 @@ return 0;
 
 void countingValleys(int steps, char path[])
 {
+    int i,count=0,data[steps],d=0;
+
+
+    for(i=0;i<=steps;i++)
+    {
+        
+        if(path[i]=='U')
+        {
+            d=d+1;
+            //printf("U= %d ",d);
+            data[i]=d;
+        }
+        if(path[i]=='D')
+        {
+            d=d-1;
+            //printf("D=%d ",d);
+            data[i]=d;
+        }
+
+        //printf("%d ",data[i]);
+        
+       
+    }
+
+for(i=0;i<steps;i++)
+{
+    //printf("%d ",data[i]);
     
+    if(data[i]<0 && data[i+1]==0)
+    {
+        count++;
+    }
+} 
+
+printf("%d",count);
+  
+ 
 }
-
-
-
-
-
-
-
 
 
 
