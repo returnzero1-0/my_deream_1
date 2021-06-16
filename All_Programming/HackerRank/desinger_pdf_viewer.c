@@ -1,55 +1,49 @@
 #include<stdio.h>
 #include<string.h>
 
-void designerPdfViewer(int h[26], char st[11]);
+void designerPdfViewer(int h[26],char st[]);
+
 int main()
 {
-    int h[26],i;
     char st[11];
+    int h[26];
 
-   
-
-    for(i=0;i<25;i++)
+    int i;
+    for(i=0;i<26;i++)
     {
         scanf("%d",&h[i]);
     }
 
-     scanf("%s",st);
-    
-
-    
-    
+    scanf("%s",st);
 
     designerPdfViewer(h,st);
 
 
-
+    
 return 0;
 }
 
-
-
-void designerPdfViewer(int h[26], char st[11])
+void designerPdfViewer(int h[26],char st[])
 {
-    int a=strlen(st);
+    int leng=strlen(st);
 
-    int i,b,max=0,area=0;
-    
-
-    for(i=0;i<a;i++)
+    int i,pos=0, max=0,area=0;
+    for(i=0;i<leng;i++)
     {
-        b=st[i]-97;
+        pos=st[i]-97;
 
-        if(st[b]>max)
+        //printf("ascii=%d ",st[i]); //this will print ascii value
+        //printf("pos=%d ",pos); //this will position
+        
+        if(h[pos] > max)
         {
-            max=h[b];
-
+            max=h[pos];
         }
-
         
     }
+    area=max*leng;
 
-    area=max*a;
     printf("%d",area);
+
 
 }
