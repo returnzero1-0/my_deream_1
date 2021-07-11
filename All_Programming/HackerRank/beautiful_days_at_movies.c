@@ -68,5 +68,3 @@ int reverseNumber(int i)
 	//printf("%d",rev);
 
 }
-
-
