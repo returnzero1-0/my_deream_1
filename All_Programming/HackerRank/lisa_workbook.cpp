@@ -22,7 +22,31 @@ return 0;
 
 void workbook(int n,int k,int arr[])
 {
-    // Find Page Count
+    int count,pg;
+
+    count=pg=0;
+
+    for(int i=0;i<n;i++)
+    {
+        for(int j=1;j<=arr[i];j++)
+        {
+            if(k==1 || j%k ==1)
+            {
+                pg++;
+            }
+            if(j==pg)
+            {
+                count++;
+            }
+        }
+    }
+
+    cout<< count;
+    
+}
+
+/*
+// Find Page Count
     int page_count=0;
     int t;
 
@@ -97,7 +121,10 @@ void workbook(int n,int k,int arr[])
     }   
     
 cout<<"Secial_page ="<<sp<<" ";
-}
+
+
+*/
+
 /*
 #include<iostream>
 using namespace std;
