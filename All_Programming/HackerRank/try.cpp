@@ -6,7 +6,12 @@ using namespace std;
 
 int main()
 {
-    int a=123456789;
-    cout<<a;
+    int a=11,b=1;
+   
+   while(b!=a)
+   {
+       cout<<b<<" ";
+       b++;
+   }
 return 0;
 }
