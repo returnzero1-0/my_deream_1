@@ -34,6 +34,7 @@ void workbook(int n,int k,int arr[])
             {
                 pg++;
             }
+      
             if(j==pg)
             {
                 count++;
