@@ -42,14 +42,13 @@ void flatlandSpaceStations(int n,long int cty[],long int l[],long int r[])
    
    for(int i=0;i<n;i++)
    {
-           cout<<" i="<<i;
+         
 
        p=q=0;
 
        for(int j=i, k=i;j<n || k >=0;j++,k--)
        {
-           cout<<" j="<<j;
-           cout<<" k="<<k;
+           
            if(j<n)
            {
                if(cty[j]==-1)
