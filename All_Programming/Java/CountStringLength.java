@@ -2,7 +2,7 @@ public class CountStringLength
 {
   public static void main(String args[])
   {
-    String str="Dhavalshree weds Khushboo";
+    String str="Dhavalshree weds Technology";
 
     int count=0;
 
