@@ -1,3 +1,5 @@
+//import java.util.Math;
+
 public class StringSubset
 {
   public static void main(String args[])
@@ -7,16 +9,11 @@ public class StringSubset
     int leng=str.length();
 
     char[] ch=str.toCharArray();
+    System.out.println(leng);
 
-    int subset_leng=leng*(leng+1)/2;
+    int count= power(2,leng);
+    System.out.println(count);
 
-
-
-    for(int i=0;i<subset_leng;i++)
-    {
-
-
-    }
 
   }
 }
